@@ -1,6 +1,3 @@
-Projekt,Start,Koniec,Powierzchnia,Sure
-MAN actual,2023-10-01,2023-11-15,50,1
-Coca Cola actual,2023-10-10,2023-12-01,30,1
-Regały actual,2023-11-01,2023-11-20,100,1
-DHL,2023-11-01,2023-11-20,100,1
-woodward,2023-01-01,2023-12-01,0
+projekt,start_p,koniec_p,powierzchnia,sure
+Projekt_A,2026-05-01,2026-06-15,100,High
+Projekt_B,2026-05-20,2026-07-10,150,Medium
