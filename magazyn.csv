@@ -1,5 +1,5 @@
-projekt	start_p	koniec_p	powierzchnia	sure
-Projekt_Elektronika	2026-05-01	2026-06-15	150	High
-Meble_Biurowe	2026-05-20	2026-07-10	200	Medium
-Opony_Zimowe	2026-06-05	2026-06-25	100	High
-Sezon_Lato	2026-07-01	2026-08-15	120	Low
+Projekt,Start,Koniec,Powierzchnia,Sure
+MAN actual,2023-10-01,2023-11-15,50,1
+Coca Cola actual,2023-10-10,2023-12-01,30,1
+Regały actual,2023-11-01,2023-11-20,100,1
+DHL,2023-11-01,2023-11-20,100,1
