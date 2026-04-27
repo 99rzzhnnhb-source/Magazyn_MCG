@@ -3,7 +3,7 @@ name: Update Warehouse Chart
 on:
   push:
     paths:
-      - 'magazyn.csv'  # Uruchom tylko gdy zmieni się plik z danymi
+      - 'magazyn.csv'
   workflow_dispatch: 
 
 jobs:
@@ -14,12 +14,12 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # Zaktualizowano z v3 na v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5  # Zaktualizowano z v4 na v5
         with:
-          python-version: '3.9'
+          python-version: '3.11'  # Używamy nowszej, stabilnej wersji Pythona
 
       - name: Install dependencies
         run: pip install pandas matplotlib
